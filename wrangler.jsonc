@@ -20,6 +20,11 @@
     "enabled": true
   },
 
+  "vars": {
+    "SHOPIFY_STORE_DOMAIN": "hoka-india.myshopify.com",
+    "ALLOWED_ORIGINS": "https://<live-storefront-domain>,https://hoka-india.myshopify.com"
+  },
+
   // One codebase, one Worker per store. Store settings are NOT in this file:
   // each Worker gets them in the dashboard (Settings > Variables and Secrets):
   //   SHOPIFY_STORE_DOMAIN  text    e.g. your-store.myshopify.com
